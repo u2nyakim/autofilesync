@@ -1,0 +1,45 @@
+{
+  "services": [
+    {
+      "NAME": "测试",
+      "SYNC_DIR": [
+        {
+          "src": "D:\\Test1\\ABCDEFG",
+          "dst": "/test",
+          "filter": {
+            "contains": [
+              ".php"
+            ],
+            "exclude": [
+              ".txt"
+            ]
+          }
+        }
+      ],
+      "TIMEER_CONFIG": {},
+      "RECYCLE_CONFIG": {},
+      "DEV_TYPE": "local_to_ftp",
+      "DEV_CONFIG": {
+        "global_filter": {
+          "contains": [
+            ".php",
+            ".txt"
+          ],
+          "exclude": []
+        },
+        "src": {
+          "device": "LOCAL",
+          "root": "D:\\Test1\\ABCDEFG"
+        },
+        "dst": {
+          "device": "FTP",
+          "host": "43.136.130.224",
+          "port": 21,
+          "username": "oyhanime",
+          "password": "NKx7MdP4AZ3iSWyM",
+          "root": "/ABCDEFG"
+        }
+      }
+    }
+  ]
+}
